@@ -1,6 +1,12 @@
 # SCWiki_Addons
+Added Parser functions:
+* intval
+* number_format
+* strip_tags
+* roman2int Roman number to integer
+* mod Modulo Operations 
+* int2hex
 
-Extension to view .dae files, map textures to 3D objects.
 
 ## Features
 
