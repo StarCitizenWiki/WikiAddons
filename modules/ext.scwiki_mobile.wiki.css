@@ -1,0 +1,136 @@
+#page-actions li{
+    display: inline-block !important;
+}
+
+#toc h2{
+    /*display: none;*/
+}
+
+.mobile-mb-50{
+	margin-bottom: 50;
+}
+
+div.embedvideo {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.embedvideo iframe {
+    max-width: 100%;
+}
+
+iframe.objframe{
+	max-width: 100%;
+	height: auto;
+	min-height: 300px;
+}
+
+.content table.wikitable.shiptable{
+  border: 0;
+}
+
+#bodyContent .panel{
+	background-color: #fff !important;
+}
+
+.kopfbild-container {
+	position: relative;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.kopfbild-container img.kopfbild-schablone {
+    position: absolute;
+}
+
+.factionlogo {
+    margin-top: 4px;
+}
+
+.mw-lingo-tooltip-tip {
+    z-index: 1;
+    padding: 5px;
+    min-width: 200px;
+    right: -90px;
+    top: 20px;
+    position: absolute;
+    max-width: 280px;
+    font-size: 10.5px;
+    line-height: 12px;
+    direction: ltr;
+    display: none;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.15);
+    background-color: white;
+    border-color: #e2e2e2;
+    color: #454545;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.mw-lingo-tooltip {
+    position: relative;
+}
+
+.mw-lingo-tooltip-abbr {
+    border-bottom: 1px dotted #bbbbff;
+    cursor: default;
+}
+
+#content table.shiptable {
+    width: 100% !important;
+    float: none;
+}
+
+#content .shiptable .pull-right{
+    float: none !important;
+    display: block;
+}
+
+#content .shiptable .tjsscw-planet{
+    display: block;
+}
+
+#content .shiptable .tjsscw-planet canvas{
+    display: block;
+    margin: 0 auto;
+}
+
+.tjsscw-planet canvas,
+.tjsscw-3d canvas{
+    max-width: 100%;
+    height: auto !important;
+}
+
+.mediaContainer,
+.mediaContainer video {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.shiptable span canvas {
+    width: 100% !important;
+}
+
+.content h4.panel-title {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.panel-content {
+    padding: 15px;
+}
+
+.panel-content table {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.panel-content table ul {
+    text-align: left;
+}

@@ -1,0 +1,74 @@
+#content .mw-history-compareselectedversions-button {
+    margin-bottom: 10px;
+}
+
+#content #searchText .oo-ui-inputWidget-input.form-control {
+    padding-left: 35px;
+}
+
+.wikiEditor-ui-controls .wikiEditor-ui-buttons {
+    top: -9px;
+    position: relative;
+}
+
+.mediaContainer,
+.mwPlayerContainer {
+    max-width: 100%;
+}
+
+.mwe-upwiz-stepdiv * {
+    box-sizing: initial !important;
+}
+
+.mw-mmv-wrapper * {
+    box-sizing: initial;
+}
+
+#content fieldset.flaggedrevs_reviewform {
+    padding: .35em .625em .75em;
+    margin: 0 2px;
+    border: 1px solid #c0c0c0;
+}
+
+form#mw-fr-reviewform * {
+    box-sizing: initial !important;
+}
+
+legend#mw-fr-reviewformlegend {
+    width: auto;
+    border: none;
+    font-size: 95%;
+}
+
+.fullscreen{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 100;
+}
+
+.ve-ce-mwTransclusionNode > span > img,
+.ve-ui-previewElement > span > span > img {
+    max-width: 15px !important;
+    height: auto;
+}
+
+.page-symbols * {
+    box-sizing: initial !important;
+}
+
+.ra-read-more .ext-cards-card-list .ext-cards-card-thumb {
+    background-size: cover;
+}
+
+.ext-cards-card-list .ext-cards-card-detail {
+    left: -1px;
+}
+
+.page-Star_Citizen_Wiki .introduction-video .panel-body {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}

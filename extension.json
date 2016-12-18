@@ -1,0 +1,64 @@
+{
+	"name": "SCWiki_Addons",
+	"version": "0.1.0",
+	"author": [
+		"[https://star-citizen.wiki/Benutzer:FoXFTW FoXFTW]"
+	],
+	"url": "https://star-citizen.wiki",
+	"descriptionmsg": "scwiki_addons-desc",
+	"license-name": "",
+	"type": "other",
+	"AutoloadClasses": {
+		"SCWiki_AddonsHooks": "SCWiki_Addons.hooks.php",
+		"SCWiki_Addons": "SCWiki_Addons.body.php"
+	},
+	"config": {},
+	"ExtensionMessagesFiles": {
+		"SCWiki_AddonsMagic": "SCWiki_Addons.i18n.magic.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"SCWiki_AddonsHooks::onParserFirstCallInit"
+		],
+		"BeforePageDisplay": [
+			"SCWiki_Addons::BeforePageDisplay"
+		]
+
+	},
+	"MessagesDirs": {
+		"SCWiki_Addons": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.scwiki_addons": {
+			"scripts": [
+				"modules/ext.scwiki.wiki.js"
+			],
+			"styles": [
+				"modules/ext.scwiki.wiki.css"
+			],
+			"messages": [],
+			"dependencies": []
+		},
+		"ext.scwiki_addons_mobile": {
+			"scripts": [
+				"modules/ext.scwiki_mobile.wiki.js"
+			],
+			"styles": [
+				"modules/ext.scwiki_mobile.bootstrap.css",
+				"modules/ext.scwiki_mobile.wiki.css"
+			],
+			"messages": [],
+			"dependencies": [],
+			"targets": [
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SCWiki_Addons"
+	},
+	"manifest_version": 1
+}
